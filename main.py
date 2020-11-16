@@ -22,7 +22,7 @@ def download(bot, update):
     instagram_post = message.text
     if instagram_post=="/start":
         bot.send_chat_action(chat_id=update.message.chat_id, action="typing")
-        update.message.reply_text("❤️ Thanks For Using Me Just Send Me The Link In Below Format  \n🔥 Format :- https://www.instagram.com/p/B4zvXCIlNTw/ \nVideos Must Be Less Then 20MB, For Now It Cannot Support Long IGTV Videos \n\n<b>Support Group :-</b> @NCbotschat , parse_mode=ParseMode.HTML, disable_web_page_preview=True)
+        update.message.reply_text("❤️ Thanks For Using Me Just Send Me The Link In Below Format  \n🔥 Format :- https://www.instagram.com/p/B4zvXCIlNTw/ \nVideos Must Be Less Then 20MB, For Now It Cannot Support Long IGTV Videos \n\n<b>Support Group :-</b> @NCbotschat  \n<b>🌀 Source</b> \nhttps://github.com/Nimeshchandhra1/Instadownloderbot", parse_mode=ParseMode.HTML, disable_web_page_preview=True)
     else:
         pass
     if "instagram.com" in instagram_post:
