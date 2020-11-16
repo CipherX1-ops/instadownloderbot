@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # DONT_REMOVE_THIS
 #  TheDarkW3b (c)
+# Edit by nc
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import ParseMode
